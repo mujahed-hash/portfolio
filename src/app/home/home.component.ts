@@ -99,20 +99,10 @@ export class HomeComponent implements OnInit {
   }
 
 
-
-
-  toContact(){
-    document.getElementById('contact')?.scrollIntoView({behavior:'smooth'});
-  }
-  toHome(){
-    document.getElementById('home')?.scrollIntoView({behavior:'smooth'})
-  }
   toServices(){
     document.getElementById('skills')?.scrollIntoView({behavior:'smooth'})
   }
-  
-  toAbout(){
-    document.getElementById('about')?.scrollIntoView({behavior:'smooth'})
-  }  
+
+ 
 
 }

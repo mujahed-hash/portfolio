@@ -1,0 +1,185 @@
+<app-nav id="home"></app-nav>
+<div class="main" >
+ <div class="hello">
+     <h1>Hello!</h1>
+ </div>
+
+<div class="resH">
+    <h2>  Looking for a developer to biuld or optimize <br> your company's Web Application? </h2>
+
+</div>
+       <div class="spaceP">
+        <p class="p" >Then you flew to the right place</p>
+
+       </div>
+
+        <div class="scroll">
+                <div class="flI animate__fadeInDown "> 
+                    
+                    <img class="fl animate__pulse"src="../../assets/illust/fl.png" alt="">
+                </div>
+                <div class="sp">
+                        <p >
+                        Let Me Help you explore More, 
+                        Scroll Below
+                        </p>
+                    
+
+                </div>
+                    
+             
+            </div>
+          
+            <div class="i " (click)="toServices()">
+                <i class="fas fa-angle-double-down animate__fadeInDown"></i>
+            </div> 
+
+  
+</div>
+
+
+<div class="main2" id="skills">
+    <div class="mainC">
+    <img  style="float: left;"src="../../assets/illust/rename.gif" alt="">
+    <div class="m2text">
+    <div class="m2h">
+        <h2>Either in space or on Earth
+            we Must be shifting to upgrade </h2>
+     </div>
+     <div class="m2p">       
+        <p>Me with my fellow teammates will introduce you a way to execute your ideas,
+            either advance them or exploit.</p>  
+    </div>
+
+    </div>
+
+       
+</div>
+</div>
+
+
+
+
+    <div class="main3" id="skills">
+        <owl-carousel-o [options]="customOptions">
+            
+                <ng-template class="one" carouselSlide>
+                    <div class="tm">
+                        <h3>Ecommerce - online Shop </h3>
+                        
+                        <p>
+                            Using top-notch technologies for building flexible & Scalable Online store</p>
+                        <br>
+
+                        <img class="ecom" src="../../assets/illust/Online payment_Isometric.png" alt="">
+
+                    </div>
+                </ng-template>  
+                <ng-template class="one" carouselSlide>
+                    <div class="tm">
+                        <h3>Idea for the project</h3>
+                        
+                        <p>
+                            Got an idea to form it into a reality?
+                            let Me help you bringing it live on web                  
+                        </p>
+                        <img valign="bottom" src="../../assets/illust/business-3d-293.png" alt="">
+
+                    </div>
+                    
+                </ng-template>  
+                <ng-template class="one" carouselSlide>
+                    <div class="tm">
+                        <h3>Frontend Web Development</h3>
+                        <p>
+                            Using Angular, React like web technology for building flexible and 
+                            scalable Front-End Application.  
+                            <br>
+                        </p>
+                        <br>
+                        <img  id="change"  src="../../assets/illust/frontend.png" alt="">
+
+                    </div>
+                </ng-template>  
+                <ng-template class="one" carouselSlide>
+                    <div class="tm">
+                        <h3>Backend Development</h3>
+                        
+                        <p>
+                            Using highly scalable database let's your web app not to
+                            stumble while loading the heavy data.                       
+                        </p>
+                        <img src="../../assets/illust/backend.png" alt="">
+
+                    </div>
+                </ng-template>  
+                <ng-template class="one" carouselSlide>
+                    <div class="tm">
+                        <h3>Full stack Development</h3>
+                        
+                        <p>
+                            As a Skilled Developer I can help you with my end-end support
+                            to deliver a fully fledged web app.                        
+                        </p>
+                        <img id="change" src="../../assets/illust/fullstack.png" alt="">
+
+                    </div>
+                </ng-template>
+            
+      
+          </owl-carousel-o>
+
+    
+</div>
+
+<div class="skillM">
+    <div class="skills">
+        <h2>Using World's Advance Technologies to build web apps</h2>
+        <p-carousel [value]="products"  [numVisible]="3" [numScroll]="1"[responsiveOptions]="responsiveOptions" [autoplayInterval]="4000" >
+            <ng-template let-product style="margin: 0; background:black" pTemplate="item">
+                <div class="caro" >
+                    <div class="caroM">
+                        <h3>{{product.text}}</h3>
+                        <img style="margin: 0;"src="{{product.image}}" alt="">
+                        <div class="para">
+                            <p>{{product.textP}}</p>
+                        </div>
+                    </div> 
+                   
+                </div>       
+              
+            </ng-template>
+    
+    </p-carousel>
+    </div>
+</div>
+
+<div class="main4" id="about">
+   <div class="about">
+       <h3>About Me</h3>
+        <h2>I'm Mujahed Ahmed, Works as a Software Engineer.</h2>
+        <div class="main4P">
+            <img src="../../assets/illust/Rocket Boy_Monochromatic.png" alt="">
+            <p>With great passion of coding comes great Quality Product, 
+                I have been coding since 4+ years, Combination of technologies I use in 
+                 Full stack Web Development is popularly known as MEAN Stack Development,
+                 <br>
+                 <br>
+                 <span class="m4span">
+                By the means of full stack developer
+                I'm more focused on delivering Fast, Stable, Scalable, responsive and Secure Web Apps.
+                By Combining all Technologies mentioned in above section, A very Smooth, fast, Stable, Secure and Interactive Web Appps
+                are formed.
+            </span>
+                <br/>
+                <br>
+                AND I CAN DO THIS ALL DAY! 
+    
+            </p>
+        </div>
+    
+   </div>
+   
+</div>
+
+<app-contact id="contact"></app-contact>

@@ -1,0 +1,927 @@
+@import '~primeicons/primeicons.css';
+
+@import '~primeng/resources/primeng.min.css';
+.hello{
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    -webkit-background-clip: text;
+    background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-family: 'Lobster', cursive;
+font-size: x-large;
+}
+.main .fl{
+
+    height: 18rem;
+    position: relative;
+    left:0rem;
+    margin-bottom: 0;
+    background: none;
+    margin: 0;
+    padding: 0;
+
+}
+.flI{
+    display: flex;
+    justify-content:space-evenly;
+}
+.animate__pulse {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count:infinite;
+
+  }
+  .animate__fadeInDown{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+.main{
+   color: white;
+    background-image: url("../../assets/illust/space.jpg");
+     background-size:cover ;
+     background-repeat: no-repeat;
+
+     
+      z-index: 98;
+     height:86vh;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 2rem;
+}
+.resH{
+    text-align: center;
+    font-family: 'Crete Round', serif; 
+    text-transform:uppercase;
+}
+
+.first .p{
+    font-size: 140%;
+    position: relative;
+    left:12rem;
+    top: 3rem;
+    margin: 0;
+    color: whitesmoke;
+    font-weight: lighter;
+    
+    
+}
+.space{
+    position: relative;
+    top:4rem;
+}
+.spaceP{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    background-image: linear-gradient(to left, #1d53a3, #1f7cb3, #008793, #00bf72, #a8eb12);
+    -webkit-background-clip: text;
+    background-clip: text;
+ -webkit-text-fill-color: transparent;
+ font-family: 'Lobster', cursive;
+ font-size: large;
+}
+/* .fl2{
+    position: relative;
+    top: 5rem;
+    image-resolution: 200px;
+} */
+.scroll{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* .scroll p{
+    font-weight: lighter;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    letter-spacing: 0.4rem;
+} */
+.scroll p{
+    letter-spacing: 0.4rem;
+    width: 70%;
+    font-family: 'Crete Round', serif; 
+    position: relative;
+    left:-1rem
+}
+.sp{
+display: flex;
+justify-content:safe;
+text-align: center;
+font-size: large;
+}
+
+.blow img{
+    margin: 0;
+    padding: 1px;
+    background-color: #151515;
+    border-radius: 100%;
+    position: relative;
+    top:4rem;
+    width: 4%;
+    border: cyan 0.05px solid;
+}
+
+.main2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.m2h{
+    position: relative;
+    margin-top: 3rem;
+    color: white;
+}
+.m2h, .m2p{
+    width: 100%;
+}
+.m2h h2{
+     background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+     -webkit-background-clip: text;
+     background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: x-large;
+}
+.m2p p{
+ color: white;
+ font-family: 'Crete Round', serif;
+  font-size: larger;
+}
+.m2Text{
+    position: relative;
+    padding-top:7rem;
+}
+.i i{
+    font-size:xx-large;
+    /* color:white; */
+    /* border-width: 2px 2px 2px 2px;
+    border-image:linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    /* padding: 8px;
+    border-image-slice: 9;
+    border-style: solid;  
+     border-radius: 5px ; */
+
+     background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+     -webkit-background-clip: text;
+     background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.i{
+    position: relative;
+    top:-13rem;
+}
+.animate__fadeInDown{
+    animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+.mainC img {
+    height: 20rem;
+    width: 25rem;
+    margin: 0;
+    display: flex;
+}
+
+.main3{
+    width: 100%;
+    color: white;
+    /* background-image: linear-gradient(to bottom, #000000, #040404, #080808, #0c0c0c, #0f0f10, #1d1e1f, #292c2d, #373b3b, #555c5c, #767f7e, #98a4a2, #bccac8); */
+    /* background: #121212; */
+    background-color: #1B1A17;
+}
+
+
+.main3 img{
+    width:16rem;
+    position: relative;
+    left: 5.6rem;
+    /* margin-top: 2rem; */
+    margin-bottom: 0rem;
+    margin-left: 0;
+
+}
+
+
+
+.owl-prev i, .owl-next i {
+    background-color: blue;
+}
+.main3 .tm{
+    width:70%
+}
+.tm{
+    border-image:linear-gradient(250deg, #051937, #004d7a, #008793, #00bf72, #a8eb12); 
+    border-image-slice: 19;
+    border-style: solid;  
+    padding: 0rem;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-weight: bolder;
+     /* border-radius: 15px ; */
+}
+
+.tm{
+    background:black;
+    background: #121212;
+
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+    border-radius: 5px;
+    /* text-align: center; */
+    border-radius: 3px;
+    position: relative;
+    left: 20%;
+    /* height: 60vh; */
+    height:67vh;
+
+   
+}
+
+.tm h3{
+    position: relative;
+    top:2rem;
+    padding: 5px;
+    text-align: center;
+    border-bottom:  5px solid #1C0C5B;
+    width: max-content;
+    font-family: 'Crete Round', serif;
+}
+
+.tm img{
+    left: -4.3rem;
+    width:16rem;
+    z-index: 101;
+    position: relative;
+    top:-1rem
+    
+}
+#change{
+    width: 12rem;
+    position: relative;
+    top:1.5rem;
+}
+.tm img, .tm p{
+    display: flex;
+}
+
+.tm p{
+    /* display: flex; */
+    float:right ;
+    width: 55%;
+    position: relative;
+    top:2rem;
+    z-index: 1;
+    left: -1rem;
+    
+}
+.tm i{
+    float: right;
+    /* Saly-10 */
+
+position: absolute;
+width: 2160px;
+height: 2160px;
+left: 520px;
+top: 240px;
+}
+
+
+    /* .product-item-content {
+        border: 1px solid var(--surface-d);
+        border-radius: 3px;
+        margin: .3rem;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .product-image {
+        width: 50%;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+    } */
+
+.caroM img{
+    max-width:40%;
+   height: 7rem;
+}
+ .caro{
+display: flex;
+justify-content: center;
+height: 100%;
+position: relative;
+top: 1rem;
+padding-bottom: 4rem;
+
+/* padding-bottom: 0.3rem; */
+}
+ .skills{
+ width: 83%;
+ margin-top: 3rem;
+
+}
+.skills h2{
+    color: #F3F4ED;
+}
+.skillM{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background: #121212;
+    background: black;
+    /* background-color: #1B1A17; */
+    text-align: center;
+    padding-bottom: 0;
+
+}
+/* .caro p{
+    width: 60%;
+} */
+.caro h3{
+    color: #2D4263;
+}
+.caroM{
+    text-align: center;
+    border: #F0ECE3 2px solid;
+    margin-left: 0;
+    width: 80%;
+    border-radius: 5px;
+    position: relative;
+    /* left 2.6rem; */
+  background-color: white;
+}
+.para{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.para p{
+    width: 70%;
+}
+.main4{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    color: white;
+}
+.about{
+    background: #121212;
+    background: black;
+    /* background: #1B1A17; */
+    margin-top: 3rem;
+    
+}
+.about p {
+    background-color: #0F0F0F;
+    
+    padding: 2rem;
+    width: 30%;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,1);
+border-radius: 5px;
+}
+.about h3{
+    margin-bottom: 1rem;
+}
+.main4P{
+    display:flex; 
+    justify-content:center; 
+    width:100%;
+    align-items: center;
+    vertical-align: middle;
+}
+.main4P img{
+    width:18rem;
+    margin-right: 4rem;
+}
+.hr p{
+    font-size: 17rem;
+}
+
+@media screen and (max-width:1280px) {
+    .tm{
+        height:26rem;
+    }
+    .tm p{
+        width: 70%;
+    }
+    .tm img{
+        top:1rem;
+        width: 15rem;
+    }
+    .main2{
+       
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width:1080px) {
+    .tm{
+        width: 100%;
+    }
+    .tm h3{
+     font-size: medium;
+    }
+    .skills{
+        width: 100%;
+        margin-top: 3rem;
+       
+       }
+       .main2{
+       
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width:926px) {
+    .tm{
+        height:26rem;
+    }
+    .tm p{
+        width: 70%;
+    }
+    .tm img{
+        top:1.5rem;
+        width: 15rem;
+    }
+    .main2{
+       
+        padding-top: 13rem;
+        padding-bottom: 2rem;
+    }
+    #change{
+        top:3rem;
+    }
+    .main4P p{
+        width: 40%;
+    }
+
+}
+
+
+@media screen and (max-width : 667px) {
+  .i{
+      top:-12rem;
+      left:4%;
+  }
+}
+/* /*  */
+@media (orientation:portrait){
+    /* .main{
+        color: white;
+         background-image: url("../../assets/illust/space.jpg");
+          background-size:contain;
+          height: max-content;
+    }
+
+
+    .main .fl{
+
+        height: 18rem;
+        position: relative;
+        left:0rem;
+        margin-top: -2rem;
+    
+    
+    } */
+ 
+.first h2{
+    font-size: 100%;
+ 
+}
+.space{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+}
+.resH{
+    width:80%;
+    text-align: center;
+    font-size: small;
+}
+.spaceP{
+    left: 0;
+    float: none;
+    margin: 0;
+    margin-top: -5rem;
+}
+
+.scroll{
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    margin-top: -8rem;
+}
+.fl{
+    position: relative;
+    left:0rem;
+}
+.first p{
+    font-size: 120%;
+    position: relative;
+    left:0;
+    top:1.5rem; 
+    font-weight: bold;      
+    font-style: italic;
+}
+.sp{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top:1rem;
+   
+} 
+.sp p{
+  width: 100%;
+  left:-2rem;
+}
+.i{
+    position: relative;
+    top:-14rem;
+    left:20%;
+}
+/* .sp{
+    display: flex;
+    justify-content:safe;
+    text-align: center;
+    font-size: large;
+    } */
+
+.main2{
+        margin-top: -14rem;
+    } 
+    .main2{
+       
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+    }
+.mainC{
+
+    display: grid;
+    justify-items: center;
+}
+.mainC img{
+    height: 15rem;
+    width: 20rem;
+}   
+.m2text{
+    width: 90%;
+} 
+.main3 img{
+    width:16rem;
+    position: relative;
+    left: 3rem;
+    top:-1rem;
+   
+}
+
+.owl-prev i, .owl-next i {
+    background-color: blue;
+}
+.main3 .tm{
+    width:75%;
+    left:11%;
+}
+
+.tm{
+    background:black;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+    border-radius: 5px;
+    border-radius: 3px;
+    position: relative;
+    left: 15%;
+    height:24rem;
+
+}
+
+.tm h3{
+    position: relative;
+    top:1rem;
+    padding: 5px;
+    text-align: center;
+    border-bottom:  5px solid #1C0C5B;
+    width: max-content;
+   
+}
+
+.tm img{
+    left: -3.3rem;
+    width:79%;
+    vertical-align:bottom;
+    z-index: 101;
+    position: relative;
+    top:-2rem;
+}
+.tm img, .tm p{
+    display: flex;
+}
+#change{
+    top:-0.5rem;
+}
+.tm p{
+    float:right ;
+    width: 55%;
+    position: relative;
+    top:0rem;
+    z-index: 1;
+    left: -1rem;
+}
+.tm i{
+    float: right;
+
+position: absolute;
+width: 2160px;
+height: 2160px;
+left: 520px;
+top: 240px;
+}
+
+
+.skills{
+    width: 100%;
+    margin-top: 3rem;
+    background-color: black;
+   }
+   .skills h2{
+       color: #F3F4ED;
+   }
+   .skillM{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       height: 100%;
+       /* background: #121212; */
+       background-color: black;
+       text-align: center;
+       padding-bottom: 0;
+   
+   }
+
+   .caro{
+    border-radius: 5px;
+   margin: 1rem;
+   }
+   .resH{
+       margin-bottom: -17rem;
+   }
+   .spaceP p{
+       margin: 0;
+   }
+   .i{
+       left:10%;
+       top:-22rem;
+   }
+   .scroll{
+       margin-top: -14rem;
+   }
+   .caro h3{
+       color: #2D4263;
+   }
+   .caroM{
+       text-align: center;
+       border: #F0ECE3 2px solid;
+       margin-left: 0;
+       width: 100%;
+       border-radius: 5px;
+       position: relative;
+     background-color: white;
+   }
+  .main4 h2{
+      width:90%;
+      position: relative;
+      left: 5%;
+  }
+  .main4P, .main4{
+      display: grid;
+      width: 100%;
+      justify-items: center;
+      align-items: center;
+  } 
+  .main4P {
+      width: 90%;
+      left:10%;
+      position: relative;
+      text-align: center;
+  }
+  .main4P p{
+      width: 100%;
+      position: relative;
+      left: -6%;
+      text-align: center;
+      padding: 25px 15px;
+  }
+ 
+} 
+
+@media screen and (max-width : 528px) {
+    .resH{
+        margin-bottom: 5rem;
+    }
+    .scroll{
+        margin-top: -8rem;
+    }
+    .main2{
+        margin-top: -8rem;
+    }
+    .resH{
+        margin-bottom: 0rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width : 428px) {
+ 
+
+    .sp p{
+        width: 100%;
+    }
+    .i{
+        top:-14rem;
+        left:19%;
+    }
+    .spaceP {
+        position: relative;
+        top:0;
+        margin-bottom: 4rem ;
+        margin-top: -8rem;
+    }
+    .tm p{
+       
+        top:2rem;
+       
+    }
+    .tm img{
+        left: -2.3rem;
+        width:14rem;
+        top:0rem
+        
+    }
+    #change{
+        width: 10rem;
+        top:2rem;
+    }
+    .main4P p {
+        width: 80%;
+        /* left:10%; */
+       
+    }
+}
+@media screen and (max-width : 412px) {
+    .sp p{
+        width: 100%;
+    }
+    .i{
+        top:-10rem;
+        left:24%;
+    }
+    .spaceP {
+        position: relative;
+        top:0;
+        margin-bottom: 6rem ;
+        margin-top: -5.4rem;
+    }
+
+    .tm img{
+        left: -2.3rem;
+        width:11rem;
+        top:-2rem
+        
+    }
+    #change{
+        width: 8rem;
+        top:8rem
+
+    }
+    .main4P p {
+        width: 80%;
+        /* left:10%; */
+       
+    }
+}
+@media screen and (max-width:412px) {
+
+    .tm{
+        height: 25rem;
+    }
+    .tm img{
+        width:13rem;
+        position: relative;
+        top:-0.5rem
+        
+    }
+    #change{
+        width: 10rem;
+        top:1rem;
+    }
+    .i{
+        top:-14rem;
+        left:5rem;
+    }
+}
+@media screen and (max-width : 400px) {
+ 
+
+
+    .sp p{
+        width: 100%;
+    }
+    .i{
+        top:-10rem;
+        left:24%;
+    }
+    .spaceP {
+        position: relative;
+        top:0;
+        margin-bottom: 6rem ;
+        margin-top: -5.4rem;
+    }
+
+    .tm img{
+        left: -2.3rem;
+        width:11rem;
+        top:-2rem
+        
+    }
+    #change{
+        width: 8rem;
+    }
+    .main4P p {
+        width: 80%;
+        /* left:10%; */
+       
+    }
+}
+@media screen and (max-width:390px) {
+    .tm{
+        height: 25rem;
+    }
+    .tm img{
+        width:13rem;
+        position: relative;
+        top:-0.5rem
+        
+    }
+    #change{
+        width: 10rem;
+        top:1rem;
+    }
+    .i{
+        top:-10rem;
+        left: 22%;
+      }
+}
+@media screen and (max-width:375px) {
+
+    .resH{
+        margin-bottom: 0rem;
+        padding-bottom: 5rem;
+    }
+    .scroll{
+        margin-top: -4rem;
+    }
+    .main2{
+        margin-top: 3rem;
+    }
+
+    .tm{
+        height: 25rem;
+    }
+    .tm img{
+        width:13rem;
+        position: relative;
+        top:-0.5rem
+        
+    }
+    #change{
+        width: 10rem;
+        top:1rem;
+    }
+    .resH{
+        margin-bottom: 2rem;
+    }
+    .i{
+      top:-7rem;
+      left: 22%;
+    }
+
+}
+
+
+

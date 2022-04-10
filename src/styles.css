@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+/* @import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default'; */
+@import '~primeicons/primeicons.css';
+
+@import '~primeng/resources/primeng.min.css';
+body{
+    width:100%;
+    margin: 0;
+    height: 100%;
+    z-index: 0;
+    background: #121212;
+    background-color: black;
+    /* background: #1B1A17; */
+   overflow-x: hidden;
+}
+html
+{
+    overflow-x: hidden;
+   
+}
+
+.owl-prev i, .owl-next i {
+    /* background-color: blue; */
+    padding: 8px;
+    /* border-radius: 100%; */
+    
+}
+.owl-next{
+    position: relative;
+    /* float:right; */
+    background:none;
+}
+.owl-prev{
+    position: relative;
+    /* float: left; */
+}
+.owl-carousel{
+    background: #121212;
+   background-color:black ;
+}
+.owl-prev, .owl-next{
+    margin-top:-14rem;
+position:relative;
+
+margin-bottom: 0;
+    background: #121212;
+    background-color: black;
+    padding: 0;
+}
+
+
+

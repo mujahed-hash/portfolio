@@ -1,0 +1,39 @@
+<body>
+
+    <div *ngIf="visible"class="navItems2">
+
+        <li (click)="toHome()" >
+            Home
+        </li>
+        <li (click)="toServices()"routerLink="/projects">Projects</li>
+        <li (click)="toAbout()" routerLink="/about">About</li>
+        <li (click)="toContact()" routerLink="/contact">Contact</li>
+ 
+ 
+     </div>
+    <div class="nav-icon" (click)="onView()" >
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="navbar">
+
+        <img src="../../assets/dbe8790157418e5a467868c1221b944b.jpg" alt="">
+ 
+     <div class="navItems">
+
+        <li >
+            Home
+        </li>
+        <li (click)="toServices()"routerLink="/projects">My Projects</li>
+        <li (click)="toAbout()" routerLink="/about">About Me</li>
+        <li (click)="toContact()" routerLink="/contact">Contact Me</li>
+
+
+     </div>
+  
+    
+
+ </div>
+ <br>
+
+
+</body>

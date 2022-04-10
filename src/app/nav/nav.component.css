@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    margin: 0;
+
+}
+
+.navbar{
+    width: 100%;
+   background-color: transparent;
+   margin: 0;
+   z-index: 102;
+   overflow: visible;
+   margin-bottom: -6rem;
+
+}
+.navbar img{
+    width:4rem;
+    height: 4rem;
+    border-radius: 100%;
+    padding:  4px;
+    position: relative;
+    margin-left: 4%;
+    margin-top:0.5%;
+    /* background-color: #84DFFF; */
+    border:2px solid #170ca8 ;
+}
+.navItems,.navItems2 {
+    /* background-color: #84DFFF; */
+    color: white;
+    float: right;
+    /* display: flex; */
+    justify-content: end;
+    margin-top: 1.2%;
+    position: relative;
+    left:-3%;
+    padding:6px 14px 6px 14px;
+    border-radius: 4px;
+
+
+    
+    /* margin-left: 15%; */
+
+}
+.navItems li,.navItems2 li {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #151515;
+    /* margin-left: 0.4%; */
+    position: relative;
+    margin-left: 1rem ;
+    border-radius: 3px;
+}
+.navItems li:hover, .navItems2 li:hover{
+  
+    transition: 0.2s;
+    padding: 7px;
+    border-radius: 3px;
+}
+.nav-icon{
+    display:none
+}
+.navItems2{
+    display: none;
+}
+@media screen and (orientation:portrait) {
+    .navbar{
+        margin-bottom: -1.5rem;
+    }
+    .navItems{
+        display: none;
+    }
+    .navItems2{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: fixed;
+        z-index: 99;
+     
+    }
+    .navItems2 li{
+        font-size: small;
+        margin-left: 0.4rem;
+    }
+    .nav-icon{
+        display:block;
+        /* color: white; */
+        position: relative;
+        top:2rem;
+        margin-right: 1rem;
+        z-index: 100;
+        color: white;
+        /* background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        -webkit-background-clip: text;
+        background-clip: text;
+     -webkit-text-fill-color: transparent; */
+    }
+  .n-i{
+      display: none;
+  }
+  .navItems li {
+    /* display: inline-block; */
+    padding: 10px;
+    cursor: pointer;
+    background-color: #151515;
+    /* margin-left: 0.4%; */
+    position: relative;
+    margin-left: 1rem ;
+    border-radius: 3px;
+}
+}

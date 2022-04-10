@@ -1,0 +1,32 @@
+<div class="main5">
+    <div class="contact">
+        <h2>Contact Me</h2>
+        <div>
+            <h3>
+                Do you want to place an order <br> to have any of my services?
+            </h3>
+            <p>Please Fill all the details regarding <br>
+                your service requirement and click submit</p>
+        </div>
+        <div>
+            <form action="https://formsubmit.co/mujahedahmed786@gmail.com"  method="POST">
+                <input type="hidden" name="_next" value="http://localhost:4200">
+                <input style="margin-right: 1rem; border-top-left-radius: 4px;"type="text" name="name" placeholder="Full name" required> 
+                <input style="border-top-right-radius: 4px;"type="email" name="email" placeholder="Email Address"required>
+                <br>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="_honey" style="display:none">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+                <br>
+                <button type="submit" routerLink="/">Submit</button>
+           </form> 
+        </div>
+    </div>
+</div>
+
+<div  style="text-align: center; color: rgb(116, 6, 206);">
+    <p>developer.mujahed@gmail.com</p>
+    <p class="footer">More Sections About My Existing Projects <span>Coming Soon!</span> </p>
+    <button class="top" (click)="toHome()">Back to top</button>
+    <br>
+</div>

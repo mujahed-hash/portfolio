@@ -8,6 +8,8 @@
  -webkit-text-fill-color: transparent;
  font-family: 'Lobster', cursive;
 font-size: x-large;
+margin-top: -2rem;
+margin-bottom: -1rem;
 }
 .main .fl{
 
@@ -136,6 +138,7 @@ font-size: large;
     justify-content: center;
     padding-top: 4rem;
     padding-bottom: 2rem;
+    margin-top: 4rem;
 }
 
 .m2h{
@@ -427,6 +430,13 @@ border-radius: 5px;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+    .hello{
+    
+       
+    margin-top: -1.5rem;
+    margin-bottom: -1.5rem;
+    
+    }
 }
 @media screen and (max-width:1080px) {
     .tm{
@@ -497,6 +507,19 @@ border-radius: 5px;
     
     
     } */
+
+    .hello{
+        -webkit-background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        -webkit-background-clip: text;
+        background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-family: 'Lobster', cursive;
+       
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+    
+    }
  
 .first h2{
     font-size: 100%;
@@ -782,7 +805,19 @@ top: 240px;
         /* left:10%; */
        
     }
+    .spaceP {
+        padding: 1rem 0 4rem 0;
+    }
 }
+@media screen and (max-width : 414px) {
+    .i{
+      top:-12rem;
+    }
+    .main2{
+        margin-top: 8rem;
+    }
+}
+
 @media screen and (max-width : 412px) {
     .sp p{
         width: 100%;
@@ -867,6 +902,16 @@ top: 240px;
         /* left:10%; */
        
     }
+    .hello{
+    
+       
+        margin-top: -1.5rem;
+        margin-bottom: -1.5rem;
+        
+        }
+        .main2{
+            margin-top: 4rem;
+        }
 }
 @media screen and (max-width:390px) {
     .tm{
@@ -883,9 +928,10 @@ top: 240px;
         top:1rem;
     }
     .i{
-        top:-10rem;
+        top:-8rem;
         left: 22%;
       }
+    
 }
 @media screen and (max-width:375px) {
 
@@ -896,9 +942,7 @@ top: 240px;
     .scroll{
         margin-top: -4rem;
     }
-    .main2{
-        margin-top: 3rem;
-    }
+   
 
     .tm{
         height: 25rem;

@@ -9,8 +9,7 @@ body{
    background-color: transparent;
    margin: 0;
    z-index: 102;
-   overflow: visible;
-   margin-bottom: -6rem;
+   margin-bottom: -8rem;
 
 }
 .navbar img{
@@ -50,6 +49,8 @@ body{
     position: relative;
     margin-left: 1rem ;
     border-radius: 3px;
+    border:none;
+    outline:none;
 }
 .navItems li:hover, .navItems2 li:hover{
   
@@ -87,6 +88,7 @@ body{
         /* color: white; */
         position: relative;
         top:2rem;
+        width: max-content;
         margin-right: 1rem;
         z-index: 100;
         color: white;

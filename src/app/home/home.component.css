@@ -150,7 +150,7 @@ font-size: large;
     width: 100%;
 }
 .m2h h2{
-     background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+     background-image: linear-gradient(to right, #1754af, #1e89c7, #008793, #00bf72, #a8eb12);
      -webkit-background-clip: text;
      background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -520,7 +520,12 @@ border-radius: 5px;
     margin-bottom: -3rem;
     
     }
- 
+ .hello h1{
+    background-image: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    -webkit-background-clip: text;
+    background-clip: text;
+ -webkit-text-fill-color: transparent;
+ }
 .first h2{
     font-size: 100%;
  
@@ -776,7 +781,7 @@ top: 240px;
         width: 100%;
     }
     .i{
-        top:-14rem;
+        top:-13rem;
         left:19%;
     }
     .spaceP {
@@ -811,10 +816,28 @@ top: 240px;
 }
 @media screen and (max-width : 414px) {
     .i{
-      top:-12rem;
+      top:-11.4rem;
     }
     .main2{
-        margin-top: 8rem;
+        margin-top: 2rem;
+    }
+    .tm img{
+        top:-1.5rem
+
+    }
+    #change{
+        top:1rem
+
+    }
+    .tm img{
+        top:-1rem;
+        height: 11.3rem;
+    }
+    #change{
+        height: 8rem;
+    }
+    .tm p{
+        top:0.8rem;
     }
 }
 
@@ -868,6 +891,11 @@ top: 240px;
     .i{
         top:-14rem;
         left:5rem;
+    }
+}
+@media screen and (max-width : 411px) {
+    .i{
+        top:-10rem;
     }
 }
 @media screen and (max-width : 400px) {
@@ -964,8 +992,18 @@ top: 240px;
       top:-7rem;
       left: 22%;
     }
+    .main2{
+        top:15rem;
+    }
 
 }
 
-
-
+@media screen and (max-width:313px) {
+    .tm img{
+        top:-0.7rem;
+        height: 12rem;
+    }
+    #change{
+        height: 8rem;
+    }
+}
